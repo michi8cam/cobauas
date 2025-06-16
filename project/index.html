@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+        <img src="coffee-shop-logo-free-png.webp" alt="Cafe Logo" class="logo">
+        <h1>Café Little Sruput</h1>
+        <p>Your cozy spot for coffee and snacks!</p>
+        <button id="homeButton">Home</button>
+        <button id="menuButton">Lihat Menu</button>
+        <button id="promoButton">Promo</button>
+        <button id="contactButton">Contact Us</button>
+        </div>
+    </header>
+        <main class="container">
+
+        <ul id="menuList"class="hidden">
+            <li>Americano - Rp 20.000</li>
+            <li>Cappucino - Rp 25.000</li>
+            <li>Latte - Rp 25.000</li>
+            <li>Butterscoth - Rp 30.000</li>
+            <li>Matcha - Rp 25.000</li>
+            <li>Cheese Cake - Rp 30.000</li>
+        </ul>
+
+        <div id="promoSection" class="hidden">
+            <h2>Contact Us</h2>
+            <p>📞 0859-7654-1234</p>
+            <p>📧 little.cafe@google.com</p>
+            <p>📍 Jl. Kutukan Mantan No.1, Coffe Town</p>
+        </div>
+
+        <h2>Grafik penjualan Minuman</h2>
+        <canvas id="salesChart" width="400" height="200"></canvas>
+        </main>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

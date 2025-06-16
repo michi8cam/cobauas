@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container {
+    text-align: center;
+    background: rgb(202, 132, 94);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #6d4c41;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffe0b2;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d84315;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #bf360c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #4b4834;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+canvas {
+    margin-top: 20px;
+}
